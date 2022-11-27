@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap');
+/* font-family: 'Oswald', sans-serif; */
+
+body{
+    background-color: #F1D3B3;
+    font-family: Arial;
+}
+h1{
+    color: #65647C;
+    font-size: 42px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: white 3px 3px; 
+    
+}
+p{
+    text-align: justify;
+    line-height: 1.5;
+}
+h2{
+    color: #65647C;
+    background-color: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-decoration:solid;
+    text-align: center;
+    font-size: 42px;
+    text-shadow: white 4px 4px;
+}
+h3{
+    color: #8B7E74;
+ text-align: center; 
+ text-shadow: black 1px 1px; 
+ text-transform: uppercase;
+}
+h4{
+    background-color: none;
+    font-family: 'Oswald', sans-serif;
+
+}
+.flex-container{
+    display: flex;
+    height: 100%;
+
+   
+}
+header{
+    height: 100%;
+    width: 30%;
+    text-align: center;
+
+}
+main{
+    font-family: 'Oswald', sans-serif;
+    font-size: 200%;
+    height: 100%;
+    width: 70%;
+}
+/*navigation*/
+nav.menu{
+
+}
+.link{
+    display: block;
+    text-decoration: none;
+    background-color: #C7BCA1;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.link:hover{
+    color: white;
+}
+.myphoto{
+max-width: 50%;
+border-radius: 50%;
+border: 10px solid black;
+padding: 3px;
+opacity: 100%;
+
+}
+.contact{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 42px;
+    letter-spacing: 4px;
+    text-shadow: cyan 3px 3px; 
+}
+.education{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 42px;
+    letter-spacing: 4px;
+    text-shadow:cyan 2px 2px; 
+}
+.project{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 42px;
+    letter-spacing: 4px;
+    text-shadow: cyan 2px 2px; 
+}
+.myphoto1{
+    text-align: center;
+    max-width: 50%;
+    border-radius: 50%;
+    border: 10px solid black;
+    padding: 3px;
+    opacity: 100%;
+}
